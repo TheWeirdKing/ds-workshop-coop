@@ -14,7 +14,11 @@ int main(int argc, char* argv[]) {
 
     std::list<int>::iterator it = intList.begin();
     while (it != intList.end()) {
+<<<<<<< Updated upstream
         std::cout << *it << std::endl;
+=======
+        std::cout << 3*(*it) << std::endl;
+>>>>>>> Stashed changes
         it++;
     }
 
